@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADMIN_H	admin.h	2;"	d
+ADM_DB	mylib.h	11;"	d
+AUTHOR_X_SUB	mylib.h	25;"	d
+AUTHOR_Y_SUB	mylib.h	26;"	d
+CLASS_LEN	mylib.h	43;"	d
+CONSOLE_LEN	mylib.h	18;"	d
+DIVISION_LEN	mylib.h	22;"	d
+DIVISION_START_COL	mylib.h	21;"	d
+ERRP	mylib.h	64;"	d
+GO_BACK	mylib.h	73;"	d
+MAIN_OFFSET_SUB	mylib.h	36;"	d
+MAIN_X_SUB	mylib.h	34;"	d
+MAIN_Y_SUB	mylib.h	35;"	d
+MYLIB_H	mylib.h	2;"	d
+NAME_LEN	mylib.h	46;"	d
+PSW_LEN	mylib.h	49;"	d
+SHOW_CNT	mylib.h	58;"	d
+SHOW_H	show.h	2;"	d
+STUDENT	student.h	/^}STUDENT;$/;"	t	typeref:struct:student
+STUDENT_H	student.h	2;"	d
+STU_DB	student.h	6;"	d
+STU_DELETE_ID	mylib.h	61;"	d
+STU_ID_START	mylib.h	53;"	d
+STU_LIST	student.h	/^}STU_LIST;$/;"	t	typeref:struct:student_ptr
+TEACHER_H	teacher.h	2;"	d
+TEA_DB	mylib.h	12;"	d
+TEA_ID_START	mylib.h	55;"	d
+TIP_X_SUB	mylib.h	30;"	d
+TIP_Y_SUB	mylib.h	31;"	d
+WARNING_X	mylib.h	39;"	d
+WARNING_Y	mylib.h	40;"	d
+add_stu_dislay	student.c	/^void add_stu_dislay(STUDENT stu)$/;"	f	signature:(STUDENT stu)
+add_stu_dislay	student.h	/^void add_stu_dislay(STUDENT stu);$/;"	p	signature:(STUDENT stu)
+adm_alt_psw	admin.c	/^int adm_alt_psw()$/;"	f
+adm_alt_show	show.c	/^void adm_alt_show()$/;"	f
+adm_alt_show	show.h	/^void adm_alt_show();$/;"	p	signature:()
+adm_create_show	show.c	/^void adm_create_show()$/;"	f
+adm_create_show	show.h	/^void adm_create_show();$/;"	p	signature:()
+adm_login_show	show.c	/^void adm_login_show()$/;"	f
+adm_opt	admin.c	/^int adm_opt()$/;"	f
+adm_opt	admin.h	/^int adm_opt();$/;"	p	signature:()
+adm_opt_show	show.c	/^void adm_opt_show()$/;"	f
+adm_opt_show	show.h	/^void adm_opt_show();$/;"	p	signature:()
+adm_vertify	admin.c	/^int adm_vertify()$/;"	f
+age	student.h	/^	int age;$/;"	m	struct:student	access:public
+alt_tips	show.c	/^void alt_tips(const char const*tip)$/;"	f	signature:(const char const*tip)
+author_time_show	show.c	/^void author_time_show()$/;"	f
+author_time_show	show.h	/^void author_time_show();$/;"	p	signature:()
+c_score	student.h	/^	int c_score;$/;"	m	struct:student	access:public
+clear_stu_display	student.c	/^void clear_stu_display()$/;"	f
+clear_stu_display	student.h	/^void clear_stu_display();$/;"	p	signature:()
+confirm_show	show.c	/^void confirm_show(char *confirm_msg)$/;"	f	signature:(char *confirm_msg)
+confirm_show	show.h	/^void confirm_show(char *confirm_msg);$/;"	p	signature:(char *confirm_msg)
+cover_char	mylib.c	/^void cover_char(int x, int y, int cnt)$/;"	f	signature:(int x, int y, int cnt)
+cover_char	mylib.h	/^void cover_char(int x, int y, int cnt);$/;"	p	signature:(int x, int y, int cnt)
+cpp_score	student.h	/^	int cpp_score;$/;"	m	struct:student	access:public
+division	show.c	/^void division(char *tip)$/;"	f	signature:(char *tip)
+division	show.h	/^void division();$/;"	p	signature:()
+find_stu_msg	student.c	/^void find_stu_msg()$/;"	f
+find_stu_msg	student.h	/^void find_stu_msg();$/;"	p	signature:()
+gender	student.h	/^	char gender[4];$/;"	m	struct:student	access:public
+get_find_select	mylib.c	/^int get_find_select()$/;"	f
+get_find_select	mylib.h	/^int get_find_select();$/;"	p	signature:()
+get_gender	mylib.c	/^void get_gender(char *gender, int x, int y)$/;"	f	signature:(char *gender, int x, int y)
+get_gender	mylib.h	/^void get_gender(char *name, int x, int y);$/;"	p	signature:(char *name, int x, int y)
+get_int	mylib.c	/^void get_int( char *ch_num )$/;"	f	signature:( char *ch_num )
+get_int	mylib.h	/^void get_int(char *ch_num);$/;"	p	signature:(char *ch_num)
+get_name	mylib.c	/^void get_name(char *name, int x, int y)$/;"	f	signature:(char *name, int x, int y)
+get_name	mylib.h	/^void get_name(char *name, int x, int y);$/;"	p	signature:(char *name, int x, int y)
+get_psw	mylib.c	/^void get_psw(char *psw)$/;"	f	signature:(char *psw)
+get_psw	mylib.h	/^void get_psw(char *psw);$/;"	p	signature:(char *psw)
+get_select	mylib.c	/^int get_select()$/;"	f
+get_select	mylib.h	/^int get_select();$/;"	p	signature:()
+get_select	学生系统大纲/bigG.c	/^  get_select();$/;"	p	file:
+id	student.h	/^	int id;$/;"	m	struct:student	access:public
+last_status	show.c	/^void last_status()$/;"	f
+last_status	show.h	/^void last_status();$/;"	p	signature:()
+list_read	学生系统大纲/bigG.c	/^	list_read();$/;"	p	file:
+login_stu_msg	student.c	/^void login_stu_msg(STUDENT stu)$/;"	f	signature:(STUDENT stu)
+login_stu_msg	student.h	/^void login_stu_msg(STUDENT stu);$/;"	p	signature:(STUDENT stu)
+main	stuSys.c	/^int main(int argc,char* argv[])$/;"	f	signature:(int argc,char* argv[])
+main_show	show.c	/^void main_show()$/;"	f
+main_show	show.h	/^void main_show();$/;"	p	signature:()
+main_show	学生系统大纲/bigG.c	/^  main_show();\/\/显示主界面$/;"	p	file:
+name	student.h	/^	char name[NAME_LEN+1];$/;"	m	struct:student	access:public
+next	student.h	/^	struct student_ptr *next;$/;"	m	struct:student_ptr	typeref:struct:student_ptr::student_ptr	access:public
+prev	student.h	/^	struct student_ptr *prev;$/;"	m	struct:student_ptr	typeref:struct:student_ptr::student_ptr	access:public
+psw	student.h	/^	char psw[PSW_LEN+1];$/;"	m	struct:student	access:public
+stu	student.h	/^	STUDENT stu;$/;"	m	struct:student_ptr	access:public
+stu_add	student.c	/^int stu_add()$/;"	f
+stu_add	student.h	/^int stu_add();$/;"	p	signature:()
+stu_add_show	show.c	/^void stu_add_show()$/;"	f
+stu_add_show	show.h	/^void stu_add_show();$/;"	p	signature:()
+stu_data_display	student.c	/^void stu_data_display(STUDENT *stu, int num)$/;"	f	signature:(STUDENT *stu, int num)
+stu_data_display	student.h	/^void stu_data_display(STUDENT *stu, int num);$/;"	p	signature:(STUDENT *stu, int num)
+stu_find	student.c	/^int stu_find(int type)$/;"	f	signature:(int type)
+stu_find	student.h	/^int stu_find(int type);$/;"	p	signature:(int type)
+stu_find_show	show.c	/^void stu_find_show()$/;"	f
+stu_find_show	show.h	/^void stu_find_show();$/;"	p	signature:()
+stu_free	student.c	/^void stu_free(STU_LIST *head)$/;"	f	signature:(STU_LIST *head)
+stu_free	student.h	/^void stu_free(STU_LIST *head);$/;"	p	signature:(STU_LIST *head)
+stu_list_display	student.c	/^int stu_list_display(STU_LIST *handle, int start, int cnt)$/;"	f	signature:(STU_LIST *handle, int start, int cnt)
+stu_list_display	student.h	/^int stu_list_display(STU_LIST *handle,int start, int cnt);$/;"	p	signature:(STU_LIST *handle,int start, int cnt)
+stu_list_read	student.c	/^int stu_list_read(STU_LIST *handle, int start, int cnt)$/;"	f	signature:(STU_LIST *handle, int start, int cnt)
+stu_list_read	student.h	/^int stu_list_read(STU_LIST *handle, int start, int cnt);$/;"	p	signature:(STU_LIST *handle, int start, int cnt)
+stu_opt	student.c	/^int stu_opt()$/;"	f
+stu_opt	student.h	/^int stu_opt();$/;"	p	signature:()
+stu_opt_show	show.c	/^void stu_opt_show()$/;"	f
+stu_sort_age	student.c	/^void stu_sort_age(STU_LIST *head,const int len)$/;"	f	signature:(STU_LIST *head,const int len)
+stu_sort_age	student.h	/^void stu_sort_age(STU_LIST *head,const int len);$/;"	p	signature:(STU_LIST *head,const int len)
+stu_sort_c	student.c	/^void stu_sort_c(STU_LIST *head,const int len)$/;"	f	signature:(STU_LIST *head,const int len)
+stu_sort_c	student.h	/^void stu_sort_c(STU_LIST *head,const int len);$/;"	p	signature:(STU_LIST *head,const int len)
+stu_sort_cpp	student.c	/^void stu_sort_cpp(STU_LIST *head,const int len)$/;"	f	signature:(STU_LIST *head,const int len)
+stu_sort_cpp	student.h	/^void stu_sort_cpp(STU_LIST *head,const int len);$/;"	p	signature:(STU_LIST *head,const int len)
+stu_sort_gender	student.c	/^void stu_sort_gender(STU_LIST *head,const int len)$/;"	f	signature:(STU_LIST *head,const int len)
+stu_sort_gender	student.h	/^void stu_sort_gender(STU_LIST *head,const int len);$/;"	p	signature:(STU_LIST *head,const int len)
+stu_sort_id	student.c	/^void stu_sort_id(STU_LIST *head,const int len)$/;"	f	signature:(STU_LIST *head,const int len)
+stu_sort_id	student.h	/^void stu_sort_id(STU_LIST *head,const int len);$/;"	p	signature:(STU_LIST *head,const int len)
+stu_tea_vertify_show	show.c	/^void stu_tea_vertify_show()$/;"	f
+stu_vertify	student.c	/^int stu_vertify(STUDENT *stu)$/;"	f	signature:(STUDENT *stu)
+student	student.h	/^typedef struct student{$/;"	s
+student::age	student.h	/^	int age;$/;"	m	struct:student	access:public
+student::c_score	student.h	/^	int c_score;$/;"	m	struct:student	access:public
+student::cpp_score	student.h	/^	int cpp_score;$/;"	m	struct:student	access:public
+student::gender	student.h	/^	char gender[4];$/;"	m	struct:student	access:public
+student::id	student.h	/^	int id;$/;"	m	struct:student	access:public
+student::name	student.h	/^	char name[NAME_LEN+1];$/;"	m	struct:student	access:public
+student::psw	student.h	/^	char psw[PSW_LEN+1];$/;"	m	struct:student	access:public
+student_ptr	student.h	/^typedef struct student_ptr {$/;"	s
+student_ptr::next	student.h	/^	struct student_ptr *next;$/;"	m	struct:student_ptr	typeref:struct:student_ptr::student_ptr	access:public
+student_ptr::prev	student.h	/^	struct student_ptr *prev;$/;"	m	struct:student_ptr	typeref:struct:student_ptr::student_ptr	access:public
+student_ptr::stu	student.h	/^	STUDENT stu;$/;"	m	struct:student_ptr	access:public
+tea_opt	teacher.c	/^void tea_opt()$/;"	f
+tea_opt	teacher.h	/^void tea_opt();$/;"	p	signature:()
+tips	stuSys.c	/^char tips[255] = "";$/;"	v
