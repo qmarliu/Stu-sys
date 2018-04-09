@@ -404,7 +404,7 @@ INPUT:
         while(getchar()!='\n');
     if( strcmp(ch_name, "B")==0 || strcmp(ch_name, "b")==0 ) 
         return 0;
-
+/*
     //获取性别
     char ch_gender[4]="";
     printf("\033[%d;%dH", MAIN_X_SUB -3, DIVISION_START_COL+17+30+6);
@@ -434,7 +434,7 @@ INPUT:
     get_int(ch_cpp);
     if( strcmp(ch_cpp, "B")==0 || strcmp(ch_cpp, "b")==0 ) 
         return 0;
-
+*/
     clear_stu_display();
     STU_LIST *tail = handle.next;
     if(strcmp(ch_id,"")!=0) {
@@ -676,7 +676,7 @@ void find_stu_msg()
 {
     printf("\033[%d;%dH\033[33m", MAIN_X_SUB-3, DIVISION_START_COL);
     printf("学号:_______");
-
+/*
     printf("\033[%d;%dH", MAIN_X_SUB-3, DIVISION_START_COL+17+6);
     printf("姓名:_______");
 
@@ -691,7 +691,7 @@ void find_stu_msg()
 
     printf("\033[%d;%dH", MAIN_X_SUB -3, DIVISION_START_COL+17+100);
     printf("Cpp :_____");
-
+*/
     printf("\033[%d;%dH\033[0m", MAIN_X_SUB-5, MAIN_Y_SUB + 6);
     fflush(NULL);
 }

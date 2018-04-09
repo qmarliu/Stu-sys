@@ -113,8 +113,8 @@ void stu_opt_show()
     system("clear");
     author_time_show();
 
-    printf("\033[%d;%dH\033[32m 1. 查 找 老 师", MAIN_X_SUB, MAIN_Y_SUB);
-    printf("\033[%d;%dH 2. 修 改 密 码", MAIN_X_SUB+3, MAIN_Y_SUB);
+    printf("\033[%d;%dH\033[32m 1. 查 找 老 师(未实现）", MAIN_X_SUB, MAIN_Y_SUB);
+    printf("\033[%d;%dH 2. 修 改 密 码(未实现）", MAIN_X_SUB+3, MAIN_Y_SUB);
 
     printf("\033[%d;%dH\033[30m-__________________-", MAIN_X_SUB+1, MAIN_Y_SUB-2);
 
