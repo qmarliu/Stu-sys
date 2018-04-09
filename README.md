@@ -9,9 +9,13 @@
 # 功能
 1. 管理员操作
     - 登录
+    ![](https://github.com/qmarliu/Stu-sys/blob/master/doc/admin.jpg?raw=true)
     - 学生报名
+    ![](https://github.com/qmarliu/Stu-sys/blob/master/doc/addStu.jpg?raw=true)
     - 学生查找
+    ![](https://github.com/qmarliu/Stu-sys/blob/master/doc/findStu.jpg?raw=true)
     - 修改密码
-
+    ![](https://github.com/qmarliu/Stu-sys/blob/master/doc/adminPass.jpg?raw=true)
 2. 学生操作
     - 登录
+    ![](https://github.com/qmarliu/Stu-sys/blob/master/doc/student.jpg?raw=true)
