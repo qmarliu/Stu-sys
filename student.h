@@ -27,17 +27,22 @@ int stu_opt();
 int stu_add();
 void add_stu_dislay(STUDENT stu);
 void login_stu_msg(STUDENT stu);
-int stu_find(int type);
-void find_stu_msg();
-void stu_data_display(STUDENT *stu, int num);
+int stu_vertify(STUDENT *stu);
+
+int stu_find();
+
+void stu_sort_id(STU_LIST *head);
+void stu_sort_gender(STU_LIST *head);
+void stu_sort_age(STU_LIST *head);
+void stu_sort_c(STU_LIST *head);
+void stu_sort_cpp(STU_LIST *head);
+
+void stu_free(STU_LIST *head);
 
 int stu_list_read(STU_LIST *handle, int start, int cnt);
 int stu_list_display(STU_LIST *handle,int start, int cnt);
-void stu_sort_age(STU_LIST *head,const int len);
-void stu_sort_id(STU_LIST *head,const int len);
-void stu_sort_c(STU_LIST *head,const int len);
-void stu_sort_gender(STU_LIST *head,const int len);
-void stu_sort_cpp(STU_LIST *head,const int len);
-void stu_free(STU_LIST *head);
 void clear_stu_display();
+
+void stu_data_display(STUDENT *stu, int num);
+void find_stu_msg();
 #endif

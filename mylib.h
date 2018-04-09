@@ -75,8 +75,8 @@ extern char tips[255];
 		ret;
 
 
-int get_find_select();
 int get_select();
+int get_find_select();
 void get_psw(char *psw);
 void cover_char(int x, int y, int cnt);
 void get_name(char *name, int x, int y);
